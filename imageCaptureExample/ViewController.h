@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIActionSheetDelegate>
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)makeActionSheetAppear:(id)sender;
 @end

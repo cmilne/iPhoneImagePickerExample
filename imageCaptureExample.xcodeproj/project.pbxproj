@@ -18,6 +18,9 @@
 		FE5592CB172ACD530008D6C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5592CA172ACD530008D6C6 /* Default-568h@2x.png */; };
 		FE5592CE172ACD530008D6C6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5592CC172ACD530008D6C6 /* MainStoryboard.storyboard */; };
 		FE5592D1172ACD530008D6C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5592D0172ACD530008D6C6 /* ViewController.m */; };
+		FE5592D8172B0B590008D6C6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5592D7172B0B590008D6C6 /* MobileCoreServices.framework */; };
+		FEBA6B4E172ED3DD00C79249 /* viewfinder_2.png in Resources */ = {isa = PBXBuildFile; fileRef = FEBA6B4D172ED3DD00C79249 /* viewfinder_2.png */; };
+		FEBA6B50172ED56200C79249 /* viewfinder_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEBA6B4F172ED56200C79249 /* viewfinder_2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		FE5592CD172ACD530008D6C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FE5592CF172ACD530008D6C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FE5592D0172ACD530008D6C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE5592D7172B0B590008D6C6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FEBA6B4D172ED3DD00C79249 /* viewfinder_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewfinder_2.png; sourceTree = "<group>"; };
+		FEBA6B4F172ED56200C79249 /* viewfinder_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "viewfinder_2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5592D8172B0B590008D6C6 /* MobileCoreServices.framework in Frameworks */,
 				FE5592B5172ACD520008D6C6 /* UIKit.framework in Frameworks */,
 				FE5592B7172ACD520008D6C6 /* Foundation.framework in Frameworks */,
 				FE5592B9172ACD520008D6C6 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +63,7 @@
 		FE5592A8172ACD520008D6C6 = {
 			isa = PBXGroup;
 			children = (
+				FE5592D7172B0B590008D6C6 /* MobileCoreServices.framework */,
 				FE5592BA172ACD520008D6C6 /* imageCaptureExample */,
 				FE5592B3172ACD520008D6C6 /* Frameworks */,
 				FE5592B2172ACD520008D6C6 /* Products */,
@@ -83,6 +91,8 @@
 		FE5592BA172ACD520008D6C6 /* imageCaptureExample */ = {
 			isa = PBXGroup;
 			children = (
+				FEBA6B4D172ED3DD00C79249 /* viewfinder_2.png */,
+				FEBA6B4F172ED56200C79249 /* viewfinder_2@2x.png */,
 				FE5592C3172ACD530008D6C6 /* AppDelegate.h */,
 				FE5592C4172ACD530008D6C6 /* AppDelegate.m */,
 				FE5592CC172ACD530008D6C6 /* MainStoryboard.storyboard */,
@@ -163,6 +173,8 @@
 				FE5592C9172ACD530008D6C6 /* Default@2x.png in Resources */,
 				FE5592CB172ACD530008D6C6 /* Default-568h@2x.png in Resources */,
 				FE5592CE172ACD530008D6C6 /* MainStoryboard.storyboard in Resources */,
+				FEBA6B4E172ED3DD00C79249 /* viewfinder_2.png in Resources */,
+				FEBA6B50172ED56200C79249 /* viewfinder_2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				FE5592D6172ACD530008D6C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
